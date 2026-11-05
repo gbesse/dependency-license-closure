@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dependency-license-closure"
+version = "0.1.0a1"
+description = "FR: Calculer les obligations déclarées de branches de dépendances | EN: Compute declared license obligations across dependency branches | ES: Calcular obligaciones declaradas en ramas de dependencias"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+dependency-license-closure = "dependency_license_closure.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["dependency_license_closure*"]

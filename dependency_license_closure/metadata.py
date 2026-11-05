@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Calculer les obligations déclarées de branches de dépendances', 'en': 'Compute declared license obligations across dependency branches', 'es': 'Calcular obligaciones declaradas en ramas de dependencias'}

@@ -1,0 +1,26 @@
+{
+  "root": "app",
+  "packages": {
+    "app": {
+      "dependencies": [
+        "lib"
+      ],
+      "license_choices": [
+        [
+          "MIT"
+        ]
+      ]
+    },
+    "lib": {
+      "dependencies": [],
+      "license_choices": [
+        [
+          "Apache-2.0"
+        ],
+        [
+          "GPL-3.0-only"
+        ]
+      ]
+    }
+  }
+}
